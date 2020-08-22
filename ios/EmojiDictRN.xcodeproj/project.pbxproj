@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* EmojiDictRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EmojiDictRNTests.m */; };
-		119A09765B9BDDB83A51CFB2 /* libPods-EmojiDictRN-EmojiDictRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57813C3182C8B45AB529736D /* libPods-EmojiDictRN-EmojiDictRNTests.a */; };
+		02217427A0CD964FC0DF077D /* libPods-EmojiDictRN-EmojiDictRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC27E1713719313BCE6FD52 /* libPods-EmojiDictRN-EmojiDictRNTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* EmojiDictRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EmojiDictRNTests.m */; };
-		2FD203140D81ED2567D8A844 /* libPods-EmojiDictRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 241B303E9E9A576031275595 /* libPods-EmojiDictRN-tvOS.a */; };
+		5BD5870DBDB4E842467C5E34 /* libPods-EmojiDictRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55180B154A44754BA4ABAD1C /* libPods-EmojiDictRN-tvOSTests.a */; };
+		5F3FD538FA2120C65B6C8BDB /* libPods-EmojiDictRN-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EF5146A79FAC39A8E8A727 /* libPods-EmojiDictRN-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A3FB1C05C510E3E6CB1279A4 /* libPods-EmojiDictRN-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8AE02D7F18FD9DE4166B64 /* libPods-EmojiDictRN-tvOSTests.a */; };
-		E7AA62BF4C776F1AFE2705F1 /* libPods-EmojiDictRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF95956B4DFCDA03C0F429 /* libPods-EmojiDictRN.a */; };
+		DDE1A42B968147B466164C45 /* libPods-EmojiDictRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A784A26F793FC966A3446FF6 /* libPods-EmojiDictRN.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,23 +50,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EmojiDictRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EmojiDictRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EmojiDictRN/main.m; sourceTree = "<group>"; };
-		1B8AE02D7F18FD9DE4166B64 /* libPods-EmojiDictRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		241B303E9E9A576031275595 /* libPods-EmojiDictRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* EmojiDictRN-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EmojiDictRN-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* EmojiDictRN-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EmojiDictRN-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32E2D2DF6A6307FB52E54A9B /* Pods-EmojiDictRN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOSTests/Pods-EmojiDictRN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		3ADF95956B4DFCDA03C0F429 /* libPods-EmojiDictRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		504E5622E42CE69BA1D2C2A4 /* Pods-EmojiDictRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN.debug.xcconfig"; sourceTree = "<group>"; };
-		57813C3182C8B45AB529736D /* libPods-EmojiDictRN-EmojiDictRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN-EmojiDictRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BFEB68839C17FCCEDD79DE1 /* Pods-EmojiDictRN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOSTests/Pods-EmojiDictRN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7347927E51C62F6091357F33 /* Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-EmojiDictRNTests/Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		377C25CB3325C3964A14F194 /* Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-EmojiDictRNTests/Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38EF5146A79FAC39A8E8A727 /* libPods-EmojiDictRN-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E192FAC50840C1E6E72141E /* Pods-EmojiDictRN-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOSTests/Pods-EmojiDictRN-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		55180B154A44754BA4ABAD1C /* libPods-EmojiDictRN-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EmojiDictRN/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E49A0EED9EF338C6263DC9D /* Pods-EmojiDictRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOS/Pods-EmojiDictRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9B4421684F849CE9065EFAA8 /* Pods-EmojiDictRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN.release.xcconfig"; sourceTree = "<group>"; };
-		9E7FD1585994079B873F3DE6 /* Pods-EmojiDictRN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOS/Pods-EmojiDictRN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E8A1FC373EDB46A4B6D301D8 /* Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-EmojiDictRNTests/Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig"; sourceTree = "<group>"; };
+		9496236846EEEA4286C95863 /* Pods-EmojiDictRN-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOS.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOS/Pods-EmojiDictRN-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A784A26F793FC966A3446FF6 /* libPods-EmojiDictRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA3D63A245A2E88AAEF1BE8 /* Pods-EmojiDictRN-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOS/Pods-EmojiDictRN-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BC23B29090D4A5AA30CE593B /* Pods-EmojiDictRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN.release.xcconfig"; sourceTree = "<group>"; };
+		CEC27E1713719313BCE6FD52 /* libPods-EmojiDictRN-EmojiDictRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiDictRN-EmojiDictRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E901E5E5FC0AD7AC755C1415 /* Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-EmojiDictRNTests/Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F44D82D84804A7FDC007DFCE /* Pods-EmojiDictRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD50F85B2E9E1F12DDB23EA /* Pods-EmojiDictRN-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiDictRN-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-EmojiDictRN-tvOSTests/Pods-EmojiDictRN-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119A09765B9BDDB83A51CFB2 /* libPods-EmojiDictRN-EmojiDictRNTests.a in Frameworks */,
+				02217427A0CD964FC0DF077D /* libPods-EmojiDictRN-EmojiDictRNTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7AA62BF4C776F1AFE2705F1 /* libPods-EmojiDictRN.a in Frameworks */,
+				DDE1A42B968147B466164C45 /* libPods-EmojiDictRN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD203140D81ED2567D8A844 /* libPods-EmojiDictRN-tvOS.a in Frameworks */,
+				5F3FD538FA2120C65B6C8BDB /* libPods-EmojiDictRN-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3FB1C05C510E3E6CB1279A4 /* libPods-EmojiDictRN-tvOSTests.a in Frameworks */,
+				5BD5870DBDB4E842467C5E34 /* libPods-EmojiDictRN-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3ADF95956B4DFCDA03C0F429 /* libPods-EmojiDictRN.a */,
-				57813C3182C8B45AB529736D /* libPods-EmojiDictRN-EmojiDictRNTests.a */,
-				241B303E9E9A576031275595 /* libPods-EmojiDictRN-tvOS.a */,
-				1B8AE02D7F18FD9DE4166B64 /* libPods-EmojiDictRN-tvOSTests.a */,
+				A784A26F793FC966A3446FF6 /* libPods-EmojiDictRN.a */,
+				CEC27E1713719313BCE6FD52 /* libPods-EmojiDictRN-EmojiDictRNTests.a */,
+				38EF5146A79FAC39A8E8A727 /* libPods-EmojiDictRN-tvOS.a */,
+				55180B154A44754BA4ABAD1C /* libPods-EmojiDictRN-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		376432A5E28603DF5731F207 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F44D82D84804A7FDC007DFCE /* Pods-EmojiDictRN.debug.xcconfig */,
+				BC23B29090D4A5AA30CE593B /* Pods-EmojiDictRN.release.xcconfig */,
+				377C25CB3325C3964A14F194 /* Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig */,
+				E901E5E5FC0AD7AC755C1415 /* Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig */,
+				BAA3D63A245A2E88AAEF1BE8 /* Pods-EmojiDictRN-tvOS.debug.xcconfig */,
+				9496236846EEEA4286C95863 /* Pods-EmojiDictRN-tvOS.release.xcconfig */,
+				FAD50F85B2E9E1F12DDB23EA /* Pods-EmojiDictRN-tvOSTests.debug.xcconfig */,
+				3E192FAC50840C1E6E72141E /* Pods-EmojiDictRN-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -164,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* EmojiDictRNTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				DB2EA66B2F48D80F24AF439C /* Pods */,
+				376432A5E28603DF5731F207 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,22 +198,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB2EA66B2F48D80F24AF439C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				504E5622E42CE69BA1D2C2A4 /* Pods-EmojiDictRN.debug.xcconfig */,
-				9B4421684F849CE9065EFAA8 /* Pods-EmojiDictRN.release.xcconfig */,
-				7347927E51C62F6091357F33 /* Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig */,
-				E8A1FC373EDB46A4B6D301D8 /* Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig */,
-				8E49A0EED9EF338C6263DC9D /* Pods-EmojiDictRN-tvOS.debug.xcconfig */,
-				9E7FD1585994079B873F3DE6 /* Pods-EmojiDictRN-tvOS.release.xcconfig */,
-				6BFEB68839C17FCCEDD79DE1 /* Pods-EmojiDictRN-tvOSTests.debug.xcconfig */,
-				32E2D2DF6A6307FB52E54A9B /* Pods-EmojiDictRN-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EmojiDictRNTests" */;
 			buildPhases = (
-				31C50D57F7C170D80BC2396D /* [CP] Check Pods Manifest.lock */,
+				9B66C69870CF6E6FDD17D19C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				0FC4F915B886DB61412C436D /* [CP] Copy Pods Resources */,
+				670D43D5B5A1A0D43D06D769 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EmojiDictRN" */;
 			buildPhases = (
-				0F794F73299FA6E9B3BE3653 /* [CP] Check Pods Manifest.lock */,
+				401C7A6C20E28246E95D1875 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				1C9121EE3EE73B9D74934139 /* [CP] Copy Pods Resources */,
+				A02CE03616EE8B7E431D768A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EmojiDictRN-tvOS" */;
 			buildPhases = (
-				5002362853903909A4CABD90 /* [CP] Check Pods Manifest.lock */,
+				F520A8DF25F9A91F2DF5432F /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EmojiDictRN-tvOSTests" */;
 			buildPhases = (
-				918AB3A7DB7709EA945C678B /* [CP] Check Pods Manifest.lock */,
+				F4B60DC0AAE195015193434B /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,7 +377,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0F794F73299FA6E9B3BE3653 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		401C7A6C20E28246E95D1875 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,7 +413,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0FC4F915B886DB61412C436D /* [CP] Copy Pods Resources */ = {
+		670D43D5B5A1A0D43D06D769 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,39 +431,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmojiDictRN-EmojiDictRNTests/Pods-EmojiDictRN-EmojiDictRNTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1C9121EE3EE73B9D74934139 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		31C50D57F7C170D80BC2396D /* [CP] Check Pods Manifest.lock */ = {
+		9B66C69870CF6E6FDD17D19C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -471,29 +453,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5002362853903909A4CABD90 /* [CP] Check Pods Manifest.lock */ = {
+		A02CE03616EE8B7E431D768A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EmojiDictRN-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmojiDictRN/Pods-EmojiDictRN-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		918AB3A7DB7709EA945C678B /* [CP] Check Pods Manifest.lock */ = {
+		F4B60DC0AAE195015193434B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -509,6 +487,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-EmojiDictRN-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F520A8DF25F9A91F2DF5432F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmojiDictRN-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -608,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7347927E51C62F6091357F33 /* Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig */;
+			baseConfigurationReference = 377C25CB3325C3964A14F194 /* Pods-EmojiDictRN-EmojiDictRNTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -631,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8A1FC373EDB46A4B6D301D8 /* Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig */;
+			baseConfigurationReference = E901E5E5FC0AD7AC755C1415 /* Pods-EmojiDictRN-EmojiDictRNTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -651,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 504E5622E42CE69BA1D2C2A4 /* Pods-EmojiDictRN.debug.xcconfig */;
+			baseConfigurationReference = F44D82D84804A7FDC007DFCE /* Pods-EmojiDictRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B4421684F849CE9065EFAA8 /* Pods-EmojiDictRN.release.xcconfig */;
+			baseConfigurationReference = BC23B29090D4A5AA30CE593B /* Pods-EmojiDictRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E49A0EED9EF338C6263DC9D /* Pods-EmojiDictRN-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BAA3D63A245A2E88AAEF1BE8 /* Pods-EmojiDictRN-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E7FD1585994079B873F3DE6 /* Pods-EmojiDictRN-tvOS.release.xcconfig */;
+			baseConfigurationReference = 9496236846EEEA4286C95863 /* Pods-EmojiDictRN-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BFEB68839C17FCCEDD79DE1 /* Pods-EmojiDictRN-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = FAD50F85B2E9E1F12DDB23EA /* Pods-EmojiDictRN-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -778,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32E2D2DF6A6307FB52E54A9B /* Pods-EmojiDictRN-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3E192FAC50840C1E6E72141E /* Pods-EmojiDictRN-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
