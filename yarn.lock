@@ -725,6 +725,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@egjs/hammerjs@^2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@egjs/hammerjs/-/hammerjs-2.0.17.tgz#5dc02af75a6a06e4c2db0202cae38c9263895124"
+  integrity sha512-XQsZgjm2EcVUiZQf11UBJQfmZeEmOW8DpI1gsFeln6w0ae0ii4dMQEQ0kjl6DspdWX1aGY1/loyXnP0JS06e/A==
+  dependencies:
+    "@types/hammerjs" "^2.0.36"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1202,6 +1209,38 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
+"@react-native-community/masked-view@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
+  integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
+
+"@react-navigation/core@^5.12.3":
+  version "5.12.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-5.12.3.tgz#0484fcca290569a0dc10b70b99f00edd3f1fd93c"
+  integrity sha512-aEOTAw4FRRNsNu6F9ibLk3SVSs4Res8BI832NEZN6qUto5ZgtuYnQHWeWV2cZ43Nc9KvUyQC/vXvO2RScwgFwA==
+  dependencies:
+    "@react-navigation/routers" "^5.4.11"
+    escape-string-regexp "^4.0.0"
+    nanoid "^3.1.12"
+    query-string "^6.13.1"
+    react-is "^16.13.0"
+    use-subscription "^1.4.0"
+
+"@react-navigation/native@^5.7.3":
+  version "5.7.3"
+  resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.7.3.tgz#3cda5ee7b0fe0d980db6d788419f0af50a64deac"
+  integrity sha512-bXb1g/cLpGF2DW1Vxk90Ch5vbaZTk5b/4Fn5xjQlueQODgc9ca+GPEssKZ84hCrNmS+Xg+iK1m/ArawLF5gMlw==
+  dependencies:
+    "@react-navigation/core" "^5.12.3"
+    nanoid "^3.1.12"
+
+"@react-navigation/routers@^5.4.11":
+  version "5.4.11"
+  resolved "https://registry.yarnpkg.com/@react-navigation/routers/-/routers-5.4.11.tgz#75dbec1809e282c3749068845099c5bee2c792f0"
+  integrity sha512-J/CsHdIjYBRe81UUiLOoz9NSrQ91uP23Oe21QPCALInRHx+rfwo2oPl6Fn8xAa7n8Dtt2oQUGyF+g5d05cB74w==
+  dependencies:
+    nanoid "^3.1.12"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
@@ -1258,6 +1297,11 @@
   integrity sha512-AiHRaEB50LQg0pZmm659vNBb9f4SJ0qrAnteuzhSeAUcJKxoYgEnprg/83kppCnc2zvtCKbdZry1a5pVY3lOTQ==
   dependencies:
     "@types/node" "*"
+
+"@types/hammerjs@^2.0.36":
+  version "2.0.36"
+  resolved "https://registry.yarnpkg.com/@types/hammerjs/-/hammerjs-2.0.36.tgz#17ce0a235e9ffbcdcdf5095646b374c2bf615a4c"
+  integrity sha512-7TUK/k2/QGpEAv/BCwSHlYu3NXZhQ9ZwBYpzr9tjlPIL2C5BeGhH3DmVavRx3ZNyELX5TLC91JTz/cen6AAtIQ==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
@@ -2786,6 +2830,11 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
 escodegen@^1.11.1:
   version "1.14.3"
   resolved "https://registry.yarnpkg.com/escodegen/-/escodegen-1.14.3.tgz#4e7b81fba61581dc97582ed78cab7f0e8d63f503"
@@ -3543,6 +3592,11 @@ hmac-drbg@^1.0.0:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
+
+hoist-non-react-statics@^2.3.1:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+  integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
 
 hosted-git-info@^2.1.4:
   version "2.8.8"
@@ -4623,151 +4677,151 @@ jsonify@~0.0.0:
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
 
-"jspm-nodelibs-assert@github:jspm/nodelibs-assert":
+jspm-nodelibs-assert@jspm/nodelibs-assert:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-assert/tar.gz/30e538e4e33fca7cf704281c9761a2e01cae6d49"
 
-"jspm-nodelibs-buffer@github:alexisvincent/nodelibs-buffer":
+jspm-nodelibs-buffer@alexisvincent/nodelibs-buffer:
   version "0.3.0"
   resolved "https://codeload.github.com/alexisvincent/nodelibs-buffer/tar.gz/218ee95b4e41ae6709e2246393942e5d8c58b0ea"
   dependencies:
     buffer "^5.0.0"
 
-"jspm-nodelibs-child_process@github:jspm/nodelibs-child_process":
+jspm-nodelibs-child_process@jspm/nodelibs-child_process:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-child_process/tar.gz/0283bcee76b03bf20e223d764e5c723ea888d4ed"
 
-"jspm-nodelibs-cluster@github:jspm/nodelibs-cluster":
+jspm-nodelibs-cluster@jspm/nodelibs-cluster:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-cluster/tar.gz/0bfd66961c8da28decc63257042d1a7a18c1161b"
 
-"jspm-nodelibs-console@github:jspm/nodelibs-console":
+jspm-nodelibs-console@jspm/nodelibs-console:
   version "0.2.3"
   resolved "https://codeload.github.com/jspm/nodelibs-console/tar.gz/ee3404f3359a8a80f8cb3ab05fcf18df1f2d0dff"
 
-"jspm-nodelibs-constants@github:jspm/nodelibs-constants":
+jspm-nodelibs-constants@jspm/nodelibs-constants:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-constants/tar.gz/66218bdcb4d9009240e42bc26f3c1ff185a1c21f"
 
-"jspm-nodelibs-crypto@github:jspm/nodelibs-crypto":
+jspm-nodelibs-crypto@jspm/nodelibs-crypto:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-crypto/tar.gz/76e3531702106e8af98b00173ffaf55368fe5977"
   dependencies:
     crypto-browserify "^3.11.0"
 
-"jspm-nodelibs-dgram@github:jspm/nodelibs-dgram":
+jspm-nodelibs-dgram@jspm/nodelibs-dgram:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-dgram/tar.gz/d7e16c308914dbcc470c8ccae60257def7258d04"
 
-"jspm-nodelibs-dns@github:jspm/nodelibs-dns":
+jspm-nodelibs-dns@jspm/nodelibs-dns:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-dns/tar.gz/1cbe4d73480ffd9ff6560f3c8a31f109e5c31d36"
 
-"jspm-nodelibs-domain@github:jspm/nodelibs-domain":
+jspm-nodelibs-domain@jspm/nodelibs-domain:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-domain/tar.gz/774131552b4781ed44b96b9419db966f35129344"
   dependencies:
     domain-browser "^1.1.7"
 
-"jspm-nodelibs-events@github:jspm/nodelibs-events":
+jspm-nodelibs-events@jspm/nodelibs-events:
   version "0.2.2"
   resolved "https://codeload.github.com/jspm/nodelibs-events/tar.gz/ba4158e5b401167ee182e16efdb17d296c753118"
 
-"jspm-nodelibs-fs@github:jspm/nodelibs-fs":
+jspm-nodelibs-fs@jspm/nodelibs-fs:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-fs/tar.gz/38bd4374604c99041a0fd5ab903b4e5dd5c457f8"
 
-"jspm-nodelibs-http@github:jspm/nodelibs-http":
+jspm-nodelibs-http@jspm/nodelibs-http:
   version "0.2.0"
   resolved "https://codeload.github.com/jspm/nodelibs-http/tar.gz/d9695acd19f036396fc3325ede3a814d94eb5502"
   dependencies:
     stream-http "^2.0.2"
 
-"jspm-nodelibs-https@github:jspm/nodelibs-https":
+jspm-nodelibs-https@jspm/nodelibs-https:
   version "0.2.2"
   resolved "https://codeload.github.com/jspm/nodelibs-https/tar.gz/bc52efead088289d0ef27135f07ae489e0db108f"
 
-"jspm-nodelibs-module@github:jspm/nodelibs-module":
+jspm-nodelibs-module@jspm/nodelibs-module:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-module/tar.gz/180c7bb9c0e5a261c3b8169588ffc5d17bf8fd41"
 
-"jspm-nodelibs-net@github:jspm/nodelibs-net":
+jspm-nodelibs-net@jspm/nodelibs-net:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-net/tar.gz/81acc312e32c6cbaebd892280f0fcc2cfd8698fa"
 
-"jspm-nodelibs-os@github:jspm/nodelibs-os":
+jspm-nodelibs-os@jspm/nodelibs-os:
   version "0.2.2"
   resolved "https://codeload.github.com/jspm/nodelibs-os/tar.gz/1e1c4f2d191969b20ae6042916dd81a9f389847c"
   dependencies:
     os-browserify "^0.3.0"
 
-"jspm-nodelibs-path@github:jspm/nodelibs-path":
+jspm-nodelibs-path@jspm/nodelibs-path:
   version "0.2.3"
   resolved "https://codeload.github.com/jspm/nodelibs-path/tar.gz/0e7bf89acd9c498f7d6b76d8586452068e731d2b"
 
-"jspm-nodelibs-process@github:jspm/nodelibs-process":
+jspm-nodelibs-process@jspm/nodelibs-process:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-process/tar.gz/e439b4f8aec32b274662961a4c617cc58ce60e93"
 
-"jspm-nodelibs-punycode@github:jspm/nodelibs-punycode":
+jspm-nodelibs-punycode@jspm/nodelibs-punycode:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-punycode/tar.gz/9adf13da1f5de4bfb808c869fcd8513866e46213"
   dependencies:
     punycode "^1.3.0"
 
-"jspm-nodelibs-querystring@github:jspm/nodelibs-querystring":
+jspm-nodelibs-querystring@jspm/nodelibs-querystring:
   version "0.2.2"
   resolved "https://codeload.github.com/jspm/nodelibs-querystring/tar.gz/414cf93b6da63fce5d97215d325e58658c67b94f"
 
-"jspm-nodelibs-readline@github:jspm/nodelibs-readline":
+jspm-nodelibs-readline@jspm/nodelibs-readline:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-readline/tar.gz/1502813706d92db5f8518bd30e2f7798754f3984"
 
-"jspm-nodelibs-repl@github:jspm/nodelibs-repl":
+jspm-nodelibs-repl@jspm/nodelibs-repl:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-repl/tar.gz/c4927c97dcbf4606f7cca649a2530a8bcee0aa11"
 
-"jspm-nodelibs-stream@github:jspm/nodelibs-stream":
+jspm-nodelibs-stream@jspm/nodelibs-stream:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-stream/tar.gz/2e5dd8d85dd178c9138b8d11040a19ee88642500"
   dependencies:
     stream-browserify "^2.0.1"
 
-"jspm-nodelibs-string_decoder@github:jspm/nodelibs-string_decoder":
+jspm-nodelibs-string_decoder@jspm/nodelibs-string_decoder:
   version "0.2.2"
   resolved "https://codeload.github.com/jspm/nodelibs-string_decoder/tar.gz/8e8ef95c19486a4e19b080a4023f46046822a237"
   dependencies:
     string_decoder "^0.10.31"
 
-"jspm-nodelibs-timers@github:jspm/nodelibs-timers":
+jspm-nodelibs-timers@jspm/nodelibs-timers:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-timers/tar.gz/1383969efdcd7a48cf3c68be3ff5fc42cdd3d7cd"
   dependencies:
     timers-browserify "^1.4.2"
 
-"jspm-nodelibs-tls@github:jspm/nodelibs-tls":
+jspm-nodelibs-tls@jspm/nodelibs-tls:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-tls/tar.gz/309759ed050a9db5c6ba0ac6e4f7ab21d446a196"
 
-"jspm-nodelibs-tty@github:jspm/nodelibs-tty":
+jspm-nodelibs-tty@jspm/nodelibs-tty:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-tty/tar.gz/116f8dcaae4af73d5cb4d74a65ff9014b03d12c5"
 
-"jspm-nodelibs-url@github:jspm/nodelibs-url":
+jspm-nodelibs-url@jspm/nodelibs-url:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-url/tar.gz/ec96c640396a61737768d837bb1e7b7fbec97c7f"
   dependencies:
     url "^0.11.0"
 
-"jspm-nodelibs-util@github:jspm/nodelibs-util":
+jspm-nodelibs-util@jspm/nodelibs-util:
   version "0.2.2"
   resolved "https://codeload.github.com/jspm/nodelibs-util/tar.gz/53f1e376fac51f68fe4b2b44095efe64df4c80b7"
 
-"jspm-nodelibs-vm@github:jspm/nodelibs-vm":
+jspm-nodelibs-vm@jspm/nodelibs-vm:
   version "0.2.1"
   resolved "https://codeload.github.com/jspm/nodelibs-vm/tar.gz/6317d15db4cf0a27ec48ca765dc17115707bfc38"
 
-"jspm-nodelibs-zlib@github:jspm/nodelibs-zlib":
+jspm-nodelibs-zlib@jspm/nodelibs-zlib:
   version "0.2.3"
   resolved "https://codeload.github.com/jspm/nodelibs-zlib/tar.gz/54df050ad39ee4034048422257b0c0a9d395886e"
   dependencies:
@@ -5706,6 +5760,11 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
 
+nanoid@^3.1.12:
+  version "3.1.12"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.12.tgz#6f7736c62e8d39421601e4a0c77623a97ea69654"
+  integrity sha512-1qstj9z5+x491jfiC4Nelk+f8XBad7LN20PmyWINJEMRSf3wcAjAWysw1qaA8z6NSKe2sjq1hRSDpBH5paCb6A==
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -6387,6 +6446,15 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+query-string@^6.13.1:
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.1.tgz#d913ccfce3b4b3a713989fe6d39466d92e71ccad"
+  integrity sha512-RfoButmcK+yCta1+FuU8REvisx1oEzhMKwhLUNcepQTPGcNMp1sIqjnfCtfnvGSQZQEhaBHvccujtWoUV3TTbA==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
 querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
@@ -6420,7 +6488,7 @@ react-devtools-core@^4.6.0:
     shell-quote "^1.6.1"
     ws "^7"
 
-react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
+react-is@^16.12.0, react-is@^16.13.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -6429,6 +6497,33 @@ react-native-eject@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/react-native-eject/-/react-native-eject-0.1.2.tgz#5824c332d092d845b1a77766c81023fa3c97bfd5"
   integrity sha512-ITuAYOLMOiSXNAjWeucQPm5i6VVweuh/Zo2gfMFSCf1DjVrdOocWwy2kkg65ypbbt26tW6Vd3ZrqNRCsC9rqDA==
+
+react-native-gesture-handler@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.7.0.tgz#0ef74a5ba836832e497dc49eb1ce58baa6c617e5"
+  integrity sha512-1CrjJf8Z6Iz2XWzfZknYtsm2sud5Lu/pLhhokkgBIKttxqGDtetDEVFDJOTJWJyKCrUPk0X5tnWi/diSF4q++w==
+  dependencies:
+    "@egjs/hammerjs" "^2.0.17"
+    hoist-non-react-statics "^2.3.1"
+    invariant "^2.2.4"
+    prop-types "^15.7.2"
+
+react-native-reanimated@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.13.0.tgz#1ee5d27d34bd2cee7dfad4ae9a3673300872c917"
+  integrity sha512-uadP/0QO+4TCsyPSvzRdl+76NPM7Bp8M25KQLB4Hg3tWBMjhrMrETnzNi33L/OPfmhU+7rceyi0QPe/DxKT5bQ==
+  dependencies:
+    fbjs "^1.0.0"
+
+react-native-safe-area-context@^3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.1.7.tgz#fc9e636dfb168f992a2172d363509ce0611a8403"
+  integrity sha512-qSyg/pVMwVPgAy8yCvw349Q+uEUhtRBV33eVXHHkfoou1vCChJxI7SmNR47/6M3BLdjWcyc4lcd018Kx+jhQCw==
+
+react-native-screens@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-2.10.1.tgz#06d22fae87ef0ce51c616c34a199726db1403b95"
+  integrity sha512-Z2kKSk4AwWRQNCBmTjViuBQK0/Lx0jc25TZptn/2gKYUCOuVRvCekoA26u0Tsb3BIQ8tWDsZW14OwDlFUXW1aw==
 
 react-native@0.63.2:
   version "0.63.2"
@@ -7120,6 +7215,11 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.5.tgz#3694b5804567a458d3c8045842a6358632f62654"
   integrity sha512-J+FWzZoynJEXGphVIS+XEh3kFSjZX/1i9gFBaWQcB+/tmpe2qUsSBABpcxqxnAxFdiUFEgAX1bjYGQvIZmoz9Q==
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+  integrity sha512-43ZssAJaMusuKWL8sKUBQXHWOpq8d6CfN/u1p4gUzfJkM05C8rxTmYrkIPTXapZpORA6LkkzcUulJ8FqA7Uudw==
+
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/split-string/-/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -7205,6 +7305,11 @@ stream-http@^2.0.2:
     readable-stream "^2.3.6"
     to-arraybuffer "^1.0.0"
     xtend "^4.0.0"
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
 string-length@^3.1.0:
   version "3.1.0"
@@ -7738,7 +7843,7 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-use-subscription@^1.0.0:
+use-subscription@^1.0.0, use-subscription@^1.4.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/use-subscription/-/use-subscription-1.4.1.tgz#edcbcc220f1adb2dd4fa0b2f61b6cc308e620069"
   integrity sha512-7+IIwDG/4JICrWHL/Q/ZPK5yozEnvRm6vHImu0LKwQlmWGKeiF7mbAenLlK/cTNXrTtXHU/SFASQHzB6+oSJMQ==
