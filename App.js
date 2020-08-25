@@ -40,15 +40,19 @@ function LoginScreen({navigation}) {
 		);
 }
 
-function HomeScreen() {
+function HomeScreen({navigation}) {
 	return (
 	  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
 		<Text>Welcome to my app!</Text>
+		<Button
+        	title="Logout"
+        	onPress={() => navigation.navigate('Login')}
+      />
 	  </View>
 	);
 }
 
-function SignUpScreen() {
+function SignUpScreen({navigation}) {
 	return (
 	  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
 		<Text>Sign up for my app!</Text>
@@ -59,6 +63,12 @@ function SignUpScreen() {
 		<TextInput
 			style={styles.input}
 			placeholder="Password"
+			secureTextEntry
+		/>
+		<TextInput
+			style={styles.input}
+			placeholder="Confirm Password"
+			secureTextEntry
 		/>
 		<TextInput
 			style={styles.input}
@@ -75,7 +85,11 @@ function SignUpScreen() {
 					>
 					<Text>Signup</Text>
 				</TouchableOpacity>
-			</View>
+		</View>
+		<Button
+        	title="Return to Login"
+        	onPress={() => navigation.navigate('Login')}
+      />
 	  </View>
 	);
 }
