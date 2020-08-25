@@ -51,7 +51,31 @@ function HomeScreen() {
 function SignUpScreen() {
 	return (
 	  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-		<Text>Sign up!</Text>
+		<Text>Sign up for my app!</Text>
+		<TextInput
+			style={styles.input}
+			placeholder="Username"
+		/>
+		<TextInput
+			style={styles.input}
+			placeholder="Password"
+		/>
+		<TextInput
+			style={styles.input}
+			placeholder="Email"
+		/>
+		<TextInput
+			style={styles.input}
+			placeholder="Phone Number"
+		/>
+		<View style={styles.btnContainer}>
+				<TouchableOpacity
+					style={styles.signup}
+					onPress={() => alert('SignUp Succesful!')}
+					>
+					<Text>Signup</Text>
+				</TouchableOpacity>
+			</View>
 	  </View>
 	);
 }
@@ -82,6 +106,14 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 		backgroundColor: '#1e90ff'
+	},
+	signup: {
+		flex: 5,
+		justifyContent: 'center',
+		alignItems: 'center',
+		backgroundColor: '#1e90ff',
+		padding: 15,
+		width: "45%"
 	},
 	welcome: {
 		textAlign: 'center',
