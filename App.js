@@ -5,104 +5,20 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, StatusBar, Button } from 'react-native';
 
-function LoginScreen({navigation}) {
-	return (
-			<View style={styles.container}>
-				<StatusBar
-					backgroundColor = "1e90ff"
-					barStyle="light-content"
-					/>
-				<Text style={styles.welcome}>Login To My App</Text>
-				<TextInput
-					style={styles.input}
-					placeholder="Username"
-				/>
-				<TextInput
-					style={styles.input}
-					placeholder="Password"
-					secureTextEntry
-				/>
-				<View style={styles.btnContainer}>
-					<TouchableOpacity
-					style={styles.userBtn}
-					onPress={() => navigation.navigate('Home')}
-					>
-						<Text style={styles.btnText}>Login</Text>
-					</TouchableOpacity>
-					<TouchableOpacity
-						style={styles.userBtn}
-						onPress={() => navigation.navigate('SignUp')}
-					>
-						<Text style={styles.btnText}>Signup</Text>
-					</TouchableOpacity>
-				</View>
-			</View>
-		);
-}
+import HomeScreen from './screens/Home';
+import LoginScreen from './screens/Login';
+import SignUpScreen from './screens/SignUp';
 
-function HomeScreen({navigation}) {
-	return (
-	  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-		<Text>Welcome to my app!</Text>
-		<Button
-        	title="Logout"
-        	onPress={() => navigation.navigate('Login')}
-      />
-	  </View>
-	);
-}
-
-function SignUpScreen({navigation}) {
-	return (
-	  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-		<Text>Sign up for my app!</Text>
-		<TextInput
-			style={styles.input}
-			placeholder="Username"
-		/>
-		<TextInput
-			style={styles.input}
-			placeholder="Password"
-			secureTextEntry
-		/>
-		<TextInput
-			style={styles.input}
-			placeholder="Confirm Password"
-			secureTextEntry
-		/>
-		<TextInput
-			style={styles.input}
-			placeholder="Email"
-		/>
-		<TextInput
-			style={styles.input}
-			placeholder="Phone Number"
-		/>
-		<View style={styles.btnContainer}>
-				<TouchableOpacity
-					style={styles.signup}
-					onPress={() => alert('SignUp Succesful!')}
-					>
-					<Text>Signup</Text>
-				</TouchableOpacity>
-		</View>
-		<Button
-        	title="Return to Login"
-        	onPress={() => navigation.navigate('Login')}
-      />
-	  </View>
-	);
-}
 
 const Stack = createStackNavigator();
 
-function App() {
+const App = () => {
 	return (
 	  <NavigationContainer>
 		<Stack.Navigator initialRouteName="Login">
-		  <Stack.Screen 
-		  name="Login" 
-		  component={LoginScreen} 
+		  <Stack.Screen
+		  name="Login"
+		  component={LoginScreen}
 		  options={{ title: 'Login Page' }}
 		  />
 		  <Stack.Screen name="Home" component={HomeScreen} />
