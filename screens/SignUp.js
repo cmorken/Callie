@@ -1,10 +1,10 @@
 import React from 'react';
-import { AppRegistry, Button, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { Button, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const SignUpScreen = ({navigation}) => {
 	return (
-	  <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-		<Text>Sign up for my app!</Text>
+	<View style={styles.container}>	
+		<Text style={styles.welcome}>Signup</Text>
 		<TextInput
 			style={styles.input}
 			placeholder="Username"
@@ -32,11 +32,12 @@ const SignUpScreen = ({navigation}) => {
 					style={styles.signup}
 					onPress={() => alert('SignUp Succesful!')}
 					>
-					<Text>Signup</Text>
+					<Text style={styles.btnText}>Signup</Text>
 				</TouchableOpacity>
 		</View>
-		<Button
-        	title="Return to Login"
+		<Button 
+			color="#fff"
+			title="Return to Login"
         	onPress={() => navigation.navigate('Login')}
       />
 	  </View>
@@ -50,19 +51,19 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: '#1e90ff'
+		backgroundColor: '#008B8B'
 	},
 	signup: {
 		flex: 5,
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: '#1e90ff',
+		backgroundColor: "#fff",
 		padding: 15,
-		width: "45%"
+		width: "45%",
+		color: "#008B8B"
 	},
 	welcome: {
 		textAlign: 'center',
-		color: '#333333',
 		marginBottom: 5,
 		fontSize: 50,
 		color: "#fff",
@@ -72,7 +73,8 @@ const styles = StyleSheet.create({
 		width: "90%",
 		backgroundColor: "#fff",
 		padding: 15,
-		marginBottom: 10
+		marginBottom: 10,
+		color: "#008B8B"
 	},
 	btnContainer: {
 		flexDirection: "row",
@@ -80,12 +82,13 @@ const styles = StyleSheet.create({
 		width: "90%"
 	},
 	userBtn: {
-		backgroundColor: "#FFD700",
+		backgroundColor: "#fff",
 		padding: 15,
 		width: "45%"
 	},
 	btnText: {
 		fontSize: 18,
-		textAlign: "center"
+		textAlign: "center",
+		color: "#008B8B"
 	}
 });

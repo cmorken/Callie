@@ -1,15 +1,11 @@
 import React from 'react';
-import { AppRegistry, Button, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { StatusBar } from 'react-native';
 
 const LoginScreen = ({navigation}) => {
 	return (
 			<View style={styles.container}>
-				<StatusBar
-					backgroundColor = "1e90ff"
-					barStyle="light-content"
-					/>
-				<Text style={styles.welcome}>Login To My App</Text>
+				<Text style={styles.welcome}>Login</Text>
 				<TextInput
 					style={styles.input}
 					placeholder="Username"
@@ -44,7 +40,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: '#1e90ff'
+		backgroundColor: '#008B8B'
 	},
 	signup: {
 		flex: 5,
@@ -56,7 +52,6 @@ const styles = StyleSheet.create({
 	},
 	welcome: {
 		textAlign: 'center',
-		color: '#333333',
 		marginBottom: 5,
 		fontSize: 50,
 		color: "#fff",
@@ -66,7 +61,8 @@ const styles = StyleSheet.create({
 		width: "90%",
 		backgroundColor: "#fff",
 		padding: 15,
-		marginBottom: 10
+		marginBottom: 10,
+		color: "#008B8B"
 	},
 	btnContainer: {
 		flexDirection: "row",
@@ -74,12 +70,13 @@ const styles = StyleSheet.create({
 		width: "90%"
 	},
 	userBtn: {
-		backgroundColor: "#FFD700",
+		backgroundColor: "#fff",
 		padding: 15,
 		width: "45%"
 	},
 	btnText: {
 		fontSize: 18,
-		textAlign: "center"
+		textAlign: "center",
+		color: "#008B8B"
 	}
 });
