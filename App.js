@@ -22,13 +22,21 @@ const Drawer = createDrawerNavigator();
 
 const LoginStackScreen = ({navigation}) => (
 	<LoginStack.Navigator>
-		  <LoginStack.Screen name="Login" component={LoginScreen} options={{ title: 'Login Page' }}/>
+		  <LoginStack.Screen name="Login" component={LoginScreen} options={{ 
+			  //title: 'Login Page' 
+			  headerStyle: {
+				backgroundColor: '#008B8B'
+			},
+			headerTintColor: '#fff'}}/>
 		</LoginStack.Navigator>
 );
 
 const HomeStackScreen = ({navigation}) => (
 	<HomeStack.Navigator>
 		  <HomeStack.Screen name="Home" component={HomeScreen} options={{
+			  headerStyle: {
+				  backgroundColor: '#008B8B'
+			  },
 			  headerLeft: () => (
 				  <Icon.Button name = "ios-menu" size = {25} backgroundColor = "#008B8B"
 				  onPress = {() => navigation.openDrawer()}></Icon.Button>

@@ -6,7 +6,7 @@ const HomeScreen = ({navigation}) => {
 		<View style={styles.container}>	
 		<Text style={styles.welcome}>Welcome to my app!</Text>
 		<Button
-			color="#fff"
+			color="#008B8B"
         	title="Logout"
         	onPress={() => navigation.navigate('Login')}
       />
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
-		backgroundColor: '#008B8B'
+		backgroundColor: '#fff'
 	},
 	signup: {
 		flex: 5,
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
 		textAlign: 'center',
 		marginBottom: 5,
 		fontSize: 50,
-		color: "#fff",
+		color: "#008B8B",
 		fontFamily: "OpenSansCondensed-Light"
 	},
 	input: {
