@@ -8,6 +8,7 @@ target 'EmojiDictRN' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'EmojiDictRNTests' do
     inherit! :complete
     # Pods for testing
@@ -31,3 +32,5 @@ target 'EmojiDictRN-tvOS' do
     # Pods for testing
   end
 end
+
+pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
