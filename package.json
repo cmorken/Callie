@@ -16,7 +16,7 @@
     "@react-navigation/stack": "^5.9.0",
     "metro-config": "^0.63.0",
     "metro-react-native-babel-transformer": "^0.63.0",
-    "protobufjs": "^6.10.1",
+    "protobufjs": "^6.10.3",
     "react": "16.13.1",
     "react-native": "0.63.2",
     "react-native-eject": "^0.1.2",
